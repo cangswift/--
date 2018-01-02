@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E194E701FFB5731000FC4E9 /* dapenti.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E661FFB5731000FC4E9 /* dapenti.caf */; };
+		5E194E711FFB5731000FC4E9 /* shouyinji1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E671FFB5731000FC4E9 /* shouyinji1.caf */; };
+		5E194E721FFB5731000FC4E9 /* shouyinji2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E681FFB5731000FC4E9 /* shouyinji2.caf */; };
+		5E194E731FFB5731000FC4E9 /* yingbi1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E691FFB5731000FC4E9 /* yingbi1.caf */; };
+		5E194E741FFB5731000FC4E9 /* yingbi2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E6A1FFB5731000FC4E9 /* yingbi2.caf */; };
+		5E194E751FFB5731000FC4E9 /* yingbi3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E6B1FFB5731000FC4E9 /* yingbi3.caf */; };
+		5E194E761FFB5731000FC4E9 /* yingbi4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E194E6C1FFB5731000FC4E9 /* yingbi4.caf */; };
+		5E194E771FFB5731000FC4E9 /* jpush-ios-2.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E194E6E1FFB5731000FC4E9 /* jpush-ios-2.1.9.a */; };
 		5E4095DC1FEA353D00CB99C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4095DB1FEA353D00CB99C7 /* AppDelegate.m */; };
 		5E4095DF1FEA353D00CB99C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4095DE1FEA353D00CB99C7 /* ViewController.m */; };
 		5E4095E41FEA353D00CB99C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4095E31FEA353D00CB99C7 /* Assets.xcassets */; };
 		5E4095EA1FEA353D00CB99C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4095E91FEA353D00CB99C7 /* main.m */; };
-		5E4095F31FEA3D8500CB99C7 /* jpush-ios-2.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4095F11FEA3D8500CB99C7 /* jpush-ios-2.1.9.a */; };
 		5E4096221FEA4B8200CB99C7 /* AppDelegate+Push.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4096211FEA4B8200CB99C7 /* AppDelegate+Push.m */; };
 		5E4096251FEA4F4300CB99C7 /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4096241FEA4F4300CB99C7 /* FViewController.m */; };
 		5E4096281FEA4F4D00CB99C7 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4096271FEA4F4D00CB99C7 /* SViewController.m */; };
@@ -30,13 +37,6 @@
 		5E4096441FEA560B00CB99C7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4096421FEA560B00CB99C7 /* libresolv.tbd */; };
 		5E40964D1FEA583A00CB99C7 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E40964C1FEA583A00CB99C7 /* NotificationService.m */; };
 		5E4096511FEA583A00CB99C7 /* Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5E4096491FEA583A00CB99C7 /* Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5E40965E1FEA59D800CB99C7 /* dapenti.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4096571FEA59D800CB99C7 /* dapenti.caf */; };
-		5E40965F1FEA59D800CB99C7 /* shouyinji1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4096581FEA59D800CB99C7 /* shouyinji1.caf */; };
-		5E4096601FEA59D800CB99C7 /* shouyinji2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E4096591FEA59D800CB99C7 /* shouyinji2.caf */; };
-		5E4096611FEA59D800CB99C7 /* yingbi1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E40965A1FEA59D800CB99C7 /* yingbi1.caf */; };
-		5E4096621FEA59D800CB99C7 /* yingbi2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E40965B1FEA59D800CB99C7 /* yingbi2.caf */; };
-		5E4096631FEA59D800CB99C7 /* yingbi3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E40965C1FEA59D800CB99C7 /* yingbi3.caf */; };
-		5E4096641FEA59D800CB99C7 /* yingbi4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E40965D1FEA59D800CB99C7 /* yingbi4.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +64,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E194E661FFB5731000FC4E9 /* dapenti.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dapenti.caf; sourceTree = "<group>"; };
+		5E194E671FFB5731000FC4E9 /* shouyinji1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shouyinji1.caf; sourceTree = "<group>"; };
+		5E194E681FFB5731000FC4E9 /* shouyinji2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shouyinji2.caf; sourceTree = "<group>"; };
+		5E194E691FFB5731000FC4E9 /* yingbi1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi1.caf; sourceTree = "<group>"; };
+		5E194E6A1FFB5731000FC4E9 /* yingbi2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi2.caf; sourceTree = "<group>"; };
+		5E194E6B1FFB5731000FC4E9 /* yingbi3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi3.caf; sourceTree = "<group>"; };
+		5E194E6C1FFB5731000FC4E9 /* yingbi4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi4.caf; sourceTree = "<group>"; };
+		5E194E6E1FFB5731000FC4E9 /* jpush-ios-2.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.9.a"; sourceTree = "<group>"; };
+		5E194E6F1FFB5731000FC4E9 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		5E4095D71FEA353D00CB99C7 /* 富媒体推送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "富媒体推送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4095DA1FEA353D00CB99C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E4095DB1FEA353D00CB99C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,8 +81,6 @@
 		5E4095E31FEA353D00CB99C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E4095E81FEA353D00CB99C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E4095E91FEA353D00CB99C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5E4095F11FEA3D8500CB99C7 /* jpush-ios-2.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.9.a"; sourceTree = "<group>"; };
-		5E4095F21FEA3D8500CB99C7 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		5E4096201FEA4B8200CB99C7 /* AppDelegate+Push.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Push.h"; sourceTree = "<group>"; };
 		5E4096211FEA4B8200CB99C7 /* AppDelegate+Push.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Push.m"; sourceTree = "<group>"; };
 		5E4096231FEA4F4300CB99C7 /* FViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
@@ -98,13 +105,6 @@
 		5E40964B1FEA583A00CB99C7 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		5E40964C1FEA583A00CB99C7 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		5E40964E1FEA583A00CB99C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E4096571FEA59D800CB99C7 /* dapenti.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dapenti.caf; sourceTree = "<group>"; };
-		5E4096581FEA59D800CB99C7 /* shouyinji1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shouyinji1.caf; sourceTree = "<group>"; };
-		5E4096591FEA59D800CB99C7 /* shouyinji2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shouyinji2.caf; sourceTree = "<group>"; };
-		5E40965A1FEA59D800CB99C7 /* yingbi1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi1.caf; sourceTree = "<group>"; };
-		5E40965B1FEA59D800CB99C7 /* yingbi2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi2.caf; sourceTree = "<group>"; };
-		5E40965C1FEA59D800CB99C7 /* yingbi3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi3.caf; sourceTree = "<group>"; };
-		5E40965D1FEA59D800CB99C7 /* yingbi4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yingbi4.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +117,7 @@
 				5E4096401FEA55FD00CB99C7 /* UserNotifications.framework in Frameworks */,
 				5E40963E1FEA55F400CB99C7 /* AdSupport.framework in Frameworks */,
 				5E40963C1FEA55ED00CB99C7 /* Security.framework in Frameworks */,
+				5E194E771FFB5731000FC4E9 /* jpush-ios-2.1.9.a in Frameworks */,
 				5E40963A1FEA55E100CB99C7 /* CoreGraphics.framework in Frameworks */,
 				5E4096381FEA55D800CB99C7 /* libz.tbd in Frameworks */,
 				5E4096361FEA55CF00CB99C7 /* CoreTelephony.framework in Frameworks */,
@@ -125,7 +126,6 @@
 				5E4096341FEA55BF00CB99C7 /* AVFoundation.framework in Frameworks */,
 				5E40962E1FEA55B100CB99C7 /* SystemConfiguration.framework in Frameworks */,
 				5E40962C1FEA55AC00CB99C7 /* CFNetwork.framework in Frameworks */,
-				5E4095F31FEA3D8500CB99C7 /* jpush-ios-2.1.9.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +139,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E194E651FFB5731000FC4E9 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				5E194E661FFB5731000FC4E9 /* dapenti.caf */,
+				5E194E671FFB5731000FC4E9 /* shouyinji1.caf */,
+				5E194E681FFB5731000FC4E9 /* shouyinji2.caf */,
+				5E194E691FFB5731000FC4E9 /* yingbi1.caf */,
+				5E194E6A1FFB5731000FC4E9 /* yingbi2.caf */,
+				5E194E6B1FFB5731000FC4E9 /* yingbi3.caf */,
+				5E194E6C1FFB5731000FC4E9 /* yingbi4.caf */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		5E194E6D1FFB5731000FC4E9 /* libPushSDK-2.1.9 */ = {
+			isa = PBXGroup;
+			children = (
+				5E194E6E1FFB5731000FC4E9 /* jpush-ios-2.1.9.a */,
+				5E194E6F1FFB5731000FC4E9 /* JPUSHService.h */,
+			);
+			path = "libPushSDK-2.1.9";
+			sourceTree = "<group>";
+		};
 		5E4095CE1FEA353C00CB99C7 = {
 			isa = PBXGroup;
 			children = (
@@ -161,11 +184,11 @@
 		5E4095D91FEA353D00CB99C7 /* 富媒体推送 */ = {
 			isa = PBXGroup;
 			children = (
+				5E194E6D1FFB5731000FC4E9 /* libPushSDK-2.1.9 */,
+				5E194E651FFB5731000FC4E9 /* sound */,
 				5E4096291FEA541A00CB99C7 /* 富媒体推送.entitlements */,
-				5E4095F01FEA3D8500CB99C7 /* libPushSDK-2.1.9 */,
 				5E4095DA1FEA353D00CB99C7 /* AppDelegate.h */,
 				5E4095DB1FEA353D00CB99C7 /* AppDelegate.m */,
-				5E4096561FEA59D800CB99C7 /* sound */,
 				5E4095DD1FEA353D00CB99C7 /* ViewController.h */,
 				5E4095DE1FEA353D00CB99C7 /* ViewController.m */,
 				5E4096231FEA4F4300CB99C7 /* FViewController.h */,
@@ -179,15 +202,6 @@
 				5E4095E91FEA353D00CB99C7 /* main.m */,
 			);
 			path = "富媒体推送";
-			sourceTree = "<group>";
-		};
-		5E4095F01FEA3D8500CB99C7 /* libPushSDK-2.1.9 */ = {
-			isa = PBXGroup;
-			children = (
-				5E4095F11FEA3D8500CB99C7 /* jpush-ios-2.1.9.a */,
-				5E4095F21FEA3D8500CB99C7 /* JPUSHService.h */,
-			);
-			path = "libPushSDK-2.1.9";
 			sourceTree = "<group>";
 		};
 		5E40962A1FEA55AB00CB99C7 /* Frameworks */ = {
@@ -218,20 +232,6 @@
 				5E40964E1FEA583A00CB99C7 /* Info.plist */,
 			);
 			path = Notification;
-			sourceTree = "<group>";
-		};
-		5E4096561FEA59D800CB99C7 /* sound */ = {
-			isa = PBXGroup;
-			children = (
-				5E4096571FEA59D800CB99C7 /* dapenti.caf */,
-				5E4096581FEA59D800CB99C7 /* shouyinji1.caf */,
-				5E4096591FEA59D800CB99C7 /* shouyinji2.caf */,
-				5E40965A1FEA59D800CB99C7 /* yingbi1.caf */,
-				5E40965B1FEA59D800CB99C7 /* yingbi2.caf */,
-				5E40965C1FEA59D800CB99C7 /* yingbi3.caf */,
-				5E40965D1FEA59D800CB99C7 /* yingbi4.caf */,
-			);
-			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,13 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E40965E1FEA59D800CB99C7 /* dapenti.caf in Resources */,
-				5E4096641FEA59D800CB99C7 /* yingbi4.caf in Resources */,
-				5E4096611FEA59D800CB99C7 /* yingbi1.caf in Resources */,
-				5E4096631FEA59D800CB99C7 /* yingbi3.caf in Resources */,
-				5E40965F1FEA59D800CB99C7 /* shouyinji1.caf in Resources */,
-				5E4096621FEA59D800CB99C7 /* yingbi2.caf in Resources */,
-				5E4096601FEA59D800CB99C7 /* shouyinji2.caf in Resources */,
+				5E194E701FFB5731000FC4E9 /* dapenti.caf in Resources */,
+				5E194E761FFB5731000FC4E9 /* yingbi4.caf in Resources */,
+				5E194E731FFB5731000FC4E9 /* yingbi1.caf in Resources */,
+				5E194E751FFB5731000FC4E9 /* yingbi3.caf in Resources */,
+				5E194E711FFB5731000FC4E9 /* shouyinji1.caf in Resources */,
+				5E194E741FFB5731000FC4E9 /* yingbi2.caf in Resources */,
+				5E194E721FFB5731000FC4E9 /* shouyinji2.caf in Resources */,
 				5E4095E41FEA353D00CB99C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
